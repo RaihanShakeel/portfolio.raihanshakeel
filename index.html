@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Portfolio | Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">Dev<span>Portfolio</span></a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1 class="fade-up">Hi, I'm <span class="typing">Raihan Shakeel</span></h1>
+            <p class="fade-up" style="animation-delay: 0.2s;">Full-Stack Developer specializing in creating elegant, high-performance web applications with modern technologies.</p>
+            <div class="hero-buttons fade-up" style="animation-delay: 0.4s;">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Let's Connect</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text fade-up">
+                    <h3>Full-Stack Developer with a passion for crafting exceptional digital experiences</h3>
+                    <p>I'm a seasoned full-stack developer with 5+ years of experience building scalable web applications and interactive user interfaces. My expertise spans across the entire development stack, from responsive front-end designs to robust back-end systems.</p>
+                    <p>I approach each project with a problem-solving mindset, focusing on creating clean, efficient code that delivers exceptional user experiences. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities.</p>
+                </div>
+                <div class="about-image fade-up" style="animation-delay: 0.3s;">
+                    <img src="images/RaihanShakeel.jpg" alt="Developer Portrait" style="width: 100%; border-radius: var(--border-radius);">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Frontend Skills -->
+                <div class="skill-category fade-up">
+                    <h3>
+                        <span class="skill-category-icon">🎨</span>
+                        Frontend Development
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">TypeScript</span>
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Next.js</span>
+                        <span class="skill-item">Vue.js</span>
+                        <span class="skill-item">HTML5</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">TailwindCSS</span>
+                        <span class="skill-item">SASS</span>
+                    </div>
+                </div>
+                
+                <!-- Backend Skills -->
+                <div class="skill-category fade-up" style="animation-delay: 0.2s;">
+                    <h3>
+                        <span class="skill-category-icon">⚙️</span>
+                        Backend Development
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">Express.js</span>
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Django</span>
+                        <span class="skill-item">FastAPI</span>
+                        <span class="skill-item">GraphQL</span>
+                        <span class="skill-item">REST APIs</span>
+                        <span class="skill-item">Microservices</span>
+                    </div>
+                </div>
+                
+                <!-- Database Skills -->
+                <div class="skill-category fade-up" style="animation-delay: 0.4s;">
+                    <h3>
+                        <span class="skill-category-icon">🗄️</span>
+                        Database & Storage
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">Redis</span>
+                        <span class="skill-item">Firebase</span>
+                        <span class="skill-item">Prisma</span>
+                        <span class="skill-item">Supabase</span>
+                    </div>
+                </div>
+                
+                <!-- DevOps & Tools -->
+                <div class="skill-category fade-up" style="animation-delay: 0.6s;">
+                    <h3>
+                        <span class="skill-category-icon">🚀</span>
+                        DevOps & Tools
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">CI/CD</span>
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">GitHub Actions</span>
+                        <span class="skill-item">Vercel</span>
+                        <span class="skill-item">Netlify</span>
+                        <span class="skill-item">Linux</span>
+                    </div>
+                </div>
+                
+                <!-- Testing & Quality -->
+                <div class="skill-category fade-up" style="animation-delay: 0.8s;">
+                    <h3>
+                        <span class="skill-category-icon">🧪</span>
+                        Testing & Quality
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Jest</span>
+                        <span class="skill-item">Cypress</span>
+                        <span class="skill-item">Testing Library</span>
+                        <span class="skill-item">Playwright</span>
+                        <span class="skill-item">ESLint</span>
+                        <span class="skill-item">Prettier</span>
+                        <span class="skill-item">Husky</span>
+                    </div>
+                </div>
+                
+                <!-- Design & UX -->
+                <div class="skill-category fade-up" style="animation-delay: 1s;">
+                    <h3>
+                        <span class="skill-category-icon">🎭</span>
+                        Design & UX
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Figma</span>
+                        <span class="skill-item">Adobe XD</span>
+                        <span class="skill-item">Photoshop</span>
+                        <span class="skill-item">UI/UX Design</span>
+                        <span class="skill-item">Responsive Design</span>
+                        <span class="skill-item">Accessibility</span>
+                        <span class="skill-item">Wireframing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card fade-up">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/300" alt="E-commerce Platform">
+                    </div>
+                    <div class="project-content">
+                        <h3>Modern E-commerce Platform</h3>
+                        <p>A full-featured e-commerce solution with real-time inventory management, payment processing, and an intuitive admin dashboard.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Next.js</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">Stripe API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn">View Demo</a>
+                            <a href="#" class="btn btn-outline">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card fade-up" style="animation-delay: 0.2s;">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/300" alt="SaaS Dashboard">
+                    </div>
+                    <div class="project-content">
+                        <h3>SaaS Analytics Dashboard</h3>
+                        <p>A comprehensive analytics platform for SaaS businesses with real-time data visualization, user tracking, and customizable reporting.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Express</span>
+                            <span class="project-tag">PostgreSQL</span>
+                            <span class="project-tag">D3.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn">View Demo</a>
+                            <a href="#" class="btn btn-outline">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card fade-up" style="animation-delay: 0.4s;">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/300" alt="AI Content Generator">
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Content Generator</h3>
+                        <p>An intelligent content creation tool that leverages machine learning to generate engaging blog posts, social media content, and marketing copy.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">TypeScript</span>
+                            <span class="project-tag">OpenAI API</span>
+                            <span class="project-tag">AWS Lambda</span>
+                            <span class="project-tag">TailwindCSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn">View Demo</a>
+                            <a href="#" class="btn btn-outline">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Work Experience</h2>
+            </div>
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item fade-up">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 - Present</span>
+                        <h3 class="timeline-title">Senior Full-Stack Developer</h3>
+                        <p><strong>Tech Innovations Inc.</strong></p>
+                        <p>Led the development of a major SaaS platform, improving performance by 40% and implementing CI/CD pipelines that reduced deployment time by 60%.</p>
+                    </div>
+                </div>
+                
+                <!-- Experience 2 -->
+                <div class="timeline-item fade-up" style="animation-delay: 0.2s;">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020 - 2022</span>
+                        <h3 class="timeline-title">Full-Stack Developer</h3>
+                        <p><strong>Digital Solutions Ltd.</strong></p>
+                        <p>Designed and developed web applications for enterprise clients, using React, Node.js, and MongoDB. Collaborated with UX designers to create intuitive user interfaces.</p>
+                    </div>
+                </div>
+                
+                <!-- Experience 3 -->
+                <div class="timeline-item fade-up" style="animation-delay: 0.4s;">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2018 - 2020</span>
+                        <h3 class="timeline-title">Front-End Developer</h3>
+                        <p><strong>Creative Web Agency</strong></p>
+                        <p>Built responsive websites and implemented interactive features using JavaScript frameworks. Optimized websites for maximum speed and scalability.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Reviews Section -->
+    <section id="reviews" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Client Reviews</h2>
+            </div>
+            <div class="reviews-container">
+                <div class="reviews-grid">
+                    <!-- Review 1 -->
+                    <div class="review-card fade-up">
+                        <div class="review-quote">"</div>
+                        <div class="review-header">
+                            <div class="review-avatar">SM</div>
+                            <div class="review-info">
+                                <h4>Sarah Martinez</h4>
+                                <div class="review-title">CEO, TechStart Inc.</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="review-text">Alex delivered an outstanding e-commerce platform that exceeded all our expectations. His attention to detail and ability to understand complex business requirements made the entire development process smooth and efficient.</p>
+                        <div class="review-date">March 2024</div>
+                    </div>
+                    
+                    <!-- Review 2 -->
+                    <div class="review-card fade-up" style="animation-delay: 0.2s;">
+                        <div class="review-quote">"</div>
+                        <div class="review-header">
+                            <div class="review-avatar">DJ</div>
+                            <div class="review-info">
+                                <h4>David Johnson</h4>
+                                <div class="review-title">CTO, DataFlow Systems</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="review-text">Working with Alex was a game-changer for our analytics dashboard project. His expertise in both frontend and backend technologies helped us create a solution that our clients absolutely love.</p>
+                        <div class="review-date">February 2024</div>
+                    </div>
+                    
+                    <!-- Review 3 -->
+                    <div class="review-card fade-up" style="animation-delay: 0.4s;">
+                        <div class="review-quote">"</div>
+                        <div class="review-header">
+                            <div class="review-avatar">LW</div>
+                            <div class="review-info">
+                                <h4>Lisa Wong</h4>
+                                <div class="review-title">Product Manager, InnovateLab</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="review-text">Alex's technical skills are matched only by his professionalism and communication. He transformed our complex requirements into an elegant, user-friendly application that has significantly improved our workflow.</p>
+                        <div class="review-date">January 2024</div>
+                    </div>
+                    
+                    <!-- Review 4 -->
+                    <div class="review-card fade-up" style="animation-delay: 0.6s;">
+                        <div class="review-quote">"</div>
+                        <div class="review-header">
+                            <div class="review-avatar">MR</div>
+                            <div class="review-info">
+                                <h4>Michael Roberts</h4>
+                                <div class="review-title">Founder, GreenTech Solutions</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="review-text">Exceptional developer who goes above and beyond. Alex not only delivered a high-quality web application but also provided valuable insights that improved our overall digital strategy.</p>
+                        <div class="review-date">December 2023</div>
+                    </div>
+                    
+                    <!-- Review 5 -->
+                    <div class="review-card fade-up" style="animation-delay: 0.8s;">
+                        <div class="review-quote">"</div>
+                        <div class="review-header">
+                            <div class="review-avatar">JT</div>
+                            <div class="review-info">
+                                <h4>Jennifer Thompson</h4>
+                                <div class="review-title">Marketing Director, CreativeAgency</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="review-text">Alex created a stunning portfolio website that perfectly captures our brand identity. His ability to translate creative concepts into functional, beautiful web experiences is truly impressive.</p>
+                        <div class="review-date">November 2023</div>
+                    </div>
+                    
+                    <!-- Review 6 -->
+                    <div class="review-card fade-up" style="animation-delay: 1s;">
+                        <div class="review-quote">"</div>
+                        <div class="review-header">
+                            <div class="review-avatar">RK</div>
+                            <div class="review-info">
+                                <h4>Robert Kim</h4>
+                                <div class="review-title">Operations Manager, LogisticsPro</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="review-text">The inventory management system Alex built for us has revolutionized our operations. Fast, reliable, and exactly what we needed. Highly recommend working with him!</p>
+                        <div class="review-date">October 2023</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form fade-up">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info fade-up" style="animation-delay: 0.3s;">
+                    <h3>Let's discuss your project</h3>
+                    <p>Have a project in mind or just want to say hello? Feel free to reach out!</p>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i>📧</i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>alex@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i>📱</i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i>📍</i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>San Francisco, CA</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i>GH</i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i>LI</i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i>TW</i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i>IG</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2025 Alex Anderson. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js">
+       
+    </script>
+</body>
+</html>
